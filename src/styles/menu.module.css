@@ -1,0 +1,133 @@
+#menu{
+    display: flex;
+    justify-content: center;
+    height: 480%;
+}
+#menu>section{
+    height: 98%;
+    width: 95%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 2%;
+}
+#menu>section>.list{
+    border: 2px solid rgb(206, 205, 205);
+    border-radius: 20px;
+    height: 280px;
+    width: 250px;
+    padding: 5%;
+}
+#menu>section>.list:hover{
+    box-shadow: 1px 1px 5px 2px rgb(200, 198, 198);
+}
+#menu>section>.list>section{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#menu>section>.list>section>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+#menu>section>.list>article{
+    height: 40%;
+    width: 100%;
+}
+#menu>section>.list>article>h1,p{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #183D3D;
+}
+#menu>section>.list>article>button{
+    height: 35%;
+    width: 100%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 0 0 15px 15px;
+    background-color: #183D3D;
+    color: white;
+}
+#menu>section>.list>article>button:hover{
+    background-color: #6a7d7d;
+    color: black;
+}
+
+@media screen and (max-width:1092px){
+    #menu{
+        align-items: center;
+        height: 500%;
+        /* background-color: yellow; */
+    }
+    #menu>section{
+        grid-template-columns: auto auto auto;
+        /* background-color: purple; */
+    }
+    #menu>section>.list{
+        height: 260px;
+        width: 280px;
+        /* background-color: yellowgreen; */
+    }
+}
+@media screen and (max-width:950px){
+    #menu>section>.list{
+        width: 250px;
+    }
+}
+@media screen and (max-width:800px){
+    #menu{
+        height: 800%;
+        /* background-color: yellow; */
+    }
+    #menu>section{
+        width: 82%;
+        grid-template-columns: auto auto;
+        /* background-color: purple; */
+    }
+    #menu>section>.list{
+        height: 280px;
+        width: 280px;
+        /* background-color: yellowgreen; */
+    }
+}
+@media screen and (max-width:700px){
+    #menu>section{
+        width: 85%;
+    }
+    #menu>section>.list{
+        width: 250px;
+    }
+}
+@media screen and (max-width:610px){
+    #menu>section{
+        height: 99%;
+        width: 95%;
+    }
+}
+@media screen and (max-width:540px){
+    #menu{
+        height: 1500%;
+    }
+    #menu>section{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    #menu>section>.list{
+        width: 280px;
+    }
+}
+@media screen and (max-width:320px){
+    #menu{
+        height: 1400%;
+    } 
+    #menu>section>.list{
+        width: 240px;
+        height: 250px;
+    }
+}

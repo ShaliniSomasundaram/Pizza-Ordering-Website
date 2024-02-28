@@ -1,0 +1,192 @@
+*{
+    color: #93B1A6;
+}
+#nav{
+    background-color: hsl(201, 64%, 4%);
+    height: 10%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+#nav>section{
+    /* background-color: pink; */
+    height: 100%;
+    width: 15%;
+}
+#nav>section>h1{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size:x-large;
+    /* background-color: brown; */
+}
+#nav>section>p{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 50%;
+    color: #93B1A6;
+    /* background-color: rgb(110, 69, 69); */
+}
+#nav>article{
+    /* background-color: yellow; */
+    width: 30%;
+    display: flex;
+    position: relative;
+}
+#nav>article>main{
+    display: none;
+}
+#nav>article>.close{
+    /* background-color: purple; */
+    height: 100%;
+    width: 85%;
+    display: flex;
+}
+#nav>article>.close>a{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#nav>article>div{
+    /* background-color: rgb(201, 143, 201); */
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#nav>article>div>button{
+    height: 50%;
+    width: 60%;
+    background-color: transparent;
+    border: none;
+}
+
+#nav>article>div>span{
+    background-color: red;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 80%;
+}
+
+@media screen and (max-width:992px){
+    #nav>article{
+        width: 35%;
+    }
+}
+@media screen and (max-width:768px){
+    #nav>article{
+        width: 45%;
+    }
+}
+@media screen and (max-width:600px){
+    #nav>section{
+        width: 24%;
+    }
+    #nav>article{
+        width: 18%;
+        display: flex;
+    }
+    #nav>article>main{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav>article>main>button{
+        height: 45%;
+        width: 60%;
+        border: none;
+        background-color: transparent;
+    }
+    #nav>article>.open{
+        background-color: #93B1A6;;
+        height: 200%;
+        width: 150%;
+        display: grid;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+    }
+    #nav>article>.open>a{
+        color: hsl(201, 64%, 4%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    #nav>article>.close{
+        display: none;
+    }
+    #nav>article>div{
+        width: 50%;
+        justify-content: start;
+    }
+    #nav>article>div>button{
+        width: 70%;
+    }
+    #nav>article>div>span{
+        right: 30%;
+    }
+}
+@media screen and (max-width:460px){
+    #nav>section{
+        width: 24%;
+    }
+    #nav>section>h1{
+        height: 60%;
+        font-size:medium;
+    }
+    #nav>section>p{
+        height: 40%;
+    }
+    #nav>article{
+        width: 22%;
+    }
+    #nav>article>main>button{
+        height: 55%;
+    }
+    #nav>article>div>button{
+        height: 70%;
+    }
+    #nav>article>div>span{
+        right: 28%;
+        top: 16%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:320px){
+    #nav>section{
+        width: 40%;
+    }
+    #nav>article{
+        width: 35%;
+    }
+    #nav>article>main>button{
+        height: 40%;
+    }
+    #nav>article>div>button{
+        height: 45%;
+        width: 60%;
+    }
+    #nav>article>div>span{
+        right: 35%;
+        top: 18%;
+    }
+}

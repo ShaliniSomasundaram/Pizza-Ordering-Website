@@ -1,0 +1,100 @@
+#about{
+    height: 82%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#about>section{
+    height: 100%;
+    width: 60%;
+}
+#about>section>img{
+    height: 100%;
+    width: 100%;
+}
+#about>article{
+    height: 75%;
+    width: 40%;
+    padding: 0 2%;
+}
+#about>article>h1{
+    height: 15%;
+    width: 100%;
+    font-size: 40px;
+    color: hsl(201, 64%, 4%);
+}
+#about>article>p{
+    height: 85%;
+    width: 100%;
+    color: hsl(201, 64%, 4%);
+    font-size: 16px;
+    display: flex;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 1200px){
+    #about>article{
+        height: 85%;
+    }
+    #about>article>h1{
+        height: 12%;
+    }
+    #about>article>p{
+        height: 88%;
+    }
+}
+@media only screen and (max-width: 992px){
+    #about>section{
+        width: 50%;
+    }
+    #about>article{
+        height: 85%;
+        width: 50%;
+    }
+    #about>article>h1{
+        height: 12%;
+    }
+    #about>article>p{
+        height: 88%;
+        font-size: 95%;
+    }
+}
+@media only screen and (max-width: 768px){
+    #about>section{
+        width: 100%;
+        position: relative;
+    }
+    #about>section>img{
+        opacity: 0.3;
+    }
+    #about>article{
+        height: 60%;
+        width: 100%;
+        position: absolute;
+        padding: 0 8%;
+    }
+    #about>article>h1{
+        height: 16%;
+    }
+    #about>article>p{
+        height: 85%;
+        font-size:85%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #about>article{
+        height: 80%;
+    }
+    #about>article>h1{
+        height: 15%;
+        font-size: 180%;
+        display: flex;
+        align-items: center;
+    }
+    #about>article>p{
+        height: 85%;
+        font-size:78%;
+    }
+}
+

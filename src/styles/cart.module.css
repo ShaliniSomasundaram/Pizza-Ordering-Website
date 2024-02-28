@@ -1,0 +1,252 @@
+#cart{
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#cart>h2{
+    font-family:cursive;
+    color:#183D3D; 
+    font-weight:bolder;
+    text-align:center;
+}
+#cart>section{
+    height:10%;
+    width:100%;
+    background-color:#bff3e3;
+    display:flex;
+    justify-content:space-around;
+}
+#cart>section>div{
+    height:100%;
+    width:60%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #040D12;
+    font-family: cursive;
+    font-weight: bold;
+}
+#cart>section>article{
+    height:100%;
+    width:40%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #040D12;
+    font-family: cursive;
+    font-weight: bold;
+}
+#cart>section>aside{
+    height:100%;
+    width:20%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #040D12;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#cartt{
+    height: auto;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+#cartt>section{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#cartt>section>div{
+    height:100%;
+    width:60%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #040D12;
+    font-family: cursive;
+    font-weight: bold;
+}
+#cartt>section>div>section{
+    height: 100%;
+    width: 60%;
+    display:flex;
+}
+#cartt>section>div>section>img{
+    height: 100%;
+    width: 15%;
+    border-radius: 10px;
+    margin-right:16%;
+}
+#cartt>section>div>section>p{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#cartt>section>article{
+    height:100%;
+    width:40%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #040D12;
+    font-family: cursive;
+    font-weight: bold;
+}
+#cartt>section>article>button{
+    height: 50%;
+    width:5%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cartt>section>article>p{
+    height: 50%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cartt>section>aside{
+    height:100%;
+    width:20%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #040D12;
+    font-family: cursive;
+    font-weight: bold;
+}
+#cartt>section>aside>button{
+    height: 50%;
+    width: 50%;
+    background-color: transparent; 
+    border: none;
+    font-size: 20px;
+}
+#cartt>section>aside>p{
+    height: 50%;
+    width: 50%;
+}
+
+#cart>article{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#cart>article>div{
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#cart>article>div>*{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p1{
+    height: 100%;
+    width: 60%;
+}
+#p2{
+    height: 100%;
+    width: 40%;
+}
+
+@media screen and (max-width:820px){
+    #cartt>section>div>section{
+        width: 75%;
+    }
+    #cartt>section>div>section>img{
+        width: 12%;
+    }
+    #cartt>section>div>section>p{
+        width: 90%;
+    }
+    #cartt>section>article>button{
+        width:8%;
+    }
+    #cartt>section>article>p{
+        width: 8%;
+    }
+    #cart>article>div{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:551px){
+    #cartt>section>div>section{
+        width: 85%;    
+    }
+    #cartt>section>div>section>img{
+        width: 15%;
+    }
+    #cartt>section>div>section>p{
+        width: 90%;
+    }
+    #cartt>section>article>button{
+        width:12%;
+    }
+    #cartt>section>article>p{
+        width: 12%;
+    }
+    #cart>article>div{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:450px){
+    #cart>section>article{
+        width:30%;
+    }
+    #cart>section>aside{
+        width:30%;
+    }
+    #cartt>section>div>section{
+        width: 100%;
+    }
+    #cartt>section>div>section>img{
+        display: none;
+    }
+    #cartt>section>div>section>p{
+        width: 100%;
+        padding-left: 5%;
+    }
+    #cartt>section>article{
+        width: 30%;
+    }
+    #cartt>section>article>button{
+        width:20%;
+    }
+    #cartt>section>article>p{
+        width: 20%;
+    }
+    #cartt>section>aside{
+        width:30%;
+    }
+    #cartt>section>aside>button{
+        width: 30%;
+    }
+    #cartt>section>aside>p{
+        width: 70%;
+    }
+    #cart>article>div{
+        width: 70%;
+    }
+}

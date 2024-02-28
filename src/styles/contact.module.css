@@ -1,0 +1,98 @@
+#contact{
+    height: 82%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact>section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#contact>section>img{
+    height: 100%;
+    width: 100%;
+}
+#contact>article{
+    height: 45%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #93B1A6;
+    position: absolute;
+    border-radius: 15px 50px;    
+}
+#contact>article>div{
+    height: 80%;
+    width: 70%;
+    text-align: center;
+}
+#contact>article>div>label{
+    height: 15%;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #183D3D;
+}
+#contact>article>div>input{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid grey;
+    height: 20%;
+    color: #183D3D;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    opacity: 0.6;
+    color: #183D3D;
+}
+#contact>article>div>button{
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #183D3D;
+    border: none;
+    height: 22%;
+    width: 30%;
+    margin-top: 1%;
+    border-radius: 10px;
+    color: white;
+}
+#contact>article>div>button:hover{
+    background-color: #325555;
+}
+
+@media screen and (max-width:768px){
+    #contact>article{
+        width: 60%; 
+    } 
+}
+
+@media screen and (max-width:600px){
+    #contact>article{
+        width: 70%;  
+        height: 40%;  
+    }
+    #contact>article>div{
+        width: 65%;
+    }
+    #contact>article>div>label{
+        font-size: 16px;
+    }
+    #contact>article>div>input{
+        font-size: 16px;
+    }
+    #contact>article>div>button{
+        font-size: 14px;
+        width: 40%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width:420px){
+    #contact>article{
+        width: 85%;  
+        height: 30%; 
+    }
+}
